@@ -86,3 +86,34 @@
   margin-left: -40px;
 }
 /* about-style-end */
+
+/* plan-style-starts */
+.plan {
+  margin-top: 130px;
+}
+.plan h2 {
+  text-align: center;
+}
+
+.plan-details {
+  display: flex;
+  padding: 80px 220px;
+  justify-content: space-between;
+}
+
+.plan-det {
+  text-align: center;
+}
+.plan-subtitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+}
+
+.plan-description {
+  text-align: center;
+  font-weight: 500;
+font-size: 25px;
+}
+/* plan-style-end */
