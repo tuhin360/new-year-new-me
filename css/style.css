@@ -41,7 +41,6 @@
 }
 /* header-style-end */
 
-
 /* about-style-starts */
 .about {
   display: flex;
@@ -86,7 +85,6 @@
 }
 /* about-style-end */
 
-
 /* plan-style-starts */
 .plan {
   margin-top: 130px;
@@ -122,7 +120,6 @@
 }
 /* plan-style-end */
 
-
 /* mindset-style-start */
 .mindset {
   background-image: url("../images/watch.png");
@@ -151,7 +148,7 @@
 }
 
 .call-mindset-btn {
-  margin-top: 20px;
+  margin-top: 15px;
   padding: 13px 35px;
   border-radius: 5px;
   border: 0;
@@ -161,6 +158,68 @@
 }
 /* mindset-style-end */
 
+/* explore-style-starts */
+.explore {
+  margin-top: 130px;
+}
+
+.explore h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.explore-details {
+  margin-left: 220px;
+  margin-right: 220px;
+  display: flex;
+  margin-top: 50px;
+}
+
+.explore-one {
+  padding: 15px;
+  background-color: #f15b22;
+  margin: 15px;
+  border-radius: 5px;
+  font-weight: 400;
+  color: #151414;
+  margin-bottom: 24px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.explore-one h3 {
+  text-align: center;
+  color: aliceblue;
+}
+
+.explore-one h5 {
+  text-align: center;
+  color: aliceblue;
+  margin-top: 15px;
+}
+.explore-one h4 {
+  text-align: center;
+  color: aliceblue;
+  margin-top: 5px;
+}
+.explore-one p {
+  text-align: justify;
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+
+.explore-one img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 95px;
+  margin-top: 10px;
+  border: 2px solid #ffffff;
+}
 
 /* footer-style-starts */
 .footer {
@@ -213,6 +272,10 @@
   border: 1px solid #ffffff;
   border-radius: 5px;
   background-color: #151414;
+}
+
+::placeholder {
+  color: rgb(255, 255, 255);
 }
 
 .subscribe-btn {
