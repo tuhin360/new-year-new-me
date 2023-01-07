@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
 
@@ -42,8 +41,8 @@
 }
 /* header-style-end */
 
-/* about-style-starts */
 
+/* about-style-starts */
 .about {
   display: flex;
   margin-top: 130px;
@@ -87,10 +86,12 @@
 }
 /* about-style-end */
 
+
 /* plan-style-starts */
 .plan {
   margin-top: 130px;
 }
+
 .plan h2 {
   text-align: center;
   font-weight: 700;
@@ -121,10 +122,10 @@
 }
 /* plan-style-end */
 
+
 /* mindset-style-start */
 .mindset {
   background-image: url("../images/watch.png");
-
   margin-left: 220px;
   margin-right: 220px;
   background-repeat: no-repeat;
@@ -139,20 +140,18 @@
   margin-right: 220px;
   font-weight: 700;
   font-size: 40px;
-  background-image: linear-gradient(to right,
-  rgb(255, 0, 0,.8) 20%,
-  rgba(255, 0, 0, 0.7) 40%,
-  rgba(255, 0, 0, .4) 70%,
-  rgb(255, 0, 0,0) 100%
-  );
-  
   border-radius: 5px;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 0, 0, 0.8) 20%,
+    rgba(255, 0, 0, 0.7) 40%,
+    rgba(255, 0, 0, 0.4) 70%,
+    rgb(255, 0, 0, 0) 100%
+  );
 }
 
 .call-mindset-btn {
- 
   margin-top: 20px;
-  
   padding: 13px 35px;
   border-radius: 5px;
   border: 0;
@@ -162,12 +161,12 @@
 }
 /* mindset-style-end */
 
+
 /* footer-style-starts */
 .footer {
   margin-top: 130px;
   display: flex;
   padding-bottom: 130px;
-
   gap: 280px;
   background-color: #151414;
   background-size: cover;
@@ -210,7 +209,6 @@
   padding: 21px 158px 22px 21px;
   font-weight: 400;
   font-size: 18px;
-
   color: #f3f3f3;
   border: 1px solid #ffffff;
   border-radius: 5px;
